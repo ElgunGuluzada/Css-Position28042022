@@ -5,7 +5,13 @@
     text-decoration: none;
 }
 
-.container {}
+.container .header-sticky {
+    margin-bottom: -.5%;
+    position: sticky;
+    top: 0px;
+    background: white;
+}
+
 
 .container .navbar {
     background-color: rgba(44, 62, 80, 255);
@@ -13,7 +19,7 @@
     height: 80px;
     padding: 2%;
     position: sticky;
-    top: 0px;
+    top: 10%;
 }
 
 .container .navbar .logo {
@@ -57,7 +63,6 @@
     background: rgba(26, 188, 156, 255);
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 .container .first-section .box img {
@@ -89,11 +94,41 @@
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 25px;
+    padding-bottom: 5%;
 }
 
 .container .second-section {
-    height: 100vh;
     background: white;
+}
+
+.container .second-section .box {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.container .second-section .box h2 {
+    color: rgba(44, 62, 80, 255);
+    font-size: 3em;
+    padding-top: 5%;
+}
+
+.container .second-section .box .icon {
+    padding: 20px;
+    color: rgba(44, 62, 80, 255);
+    text-align: center;
+    font-size: 2em;
+}
+
+.container .second-section .box .boxes {
+    width: 100%;
+    padding: 0 3em;
+    margin: 0 0 3% 0;
+}
+
+.container .second-section .box .boxes .box {
+    border-radius: 5%;
+    width: 32%;
+    padding: 1%;
 }
 
 .container .third-section {
@@ -101,17 +136,54 @@
     background: rgba(26, 188, 156, 255);
 }
 
+.container .third-section .box {
+    text-align: center;
+}
+
+.container .third-section .box h2 {
+    color: white;
+    font-size: 3em;
+    padding-top: 5%;
+}
+
+.container .third-section .box .icon {
+    padding: 20px;
+    color: white;
+    font-size: 2em;
+}
+
+.container .third-section .box .contents {
+    width: 100%;
+    color: white;
+    font-size: 23px;
+}
+
+.container .third-section .box .contents .first-content {
+    width: 28%;
+    margin-left: 20%;
+    text-align: left;
+    float: left;
+}
+
+.container .third-section .box .contents .second-content {
+    width: 28%;
+    margin-right: 21%;
+    text-align: left;
+    float: right;
+}
+
+
 .container .last-section {
     height: 100vh;
     background: white;
 }
 
-.container footer .start{
+.container footer .start {
     height: 40vh;
     background: rgb(66, 85, 104);
 }
 
-.container footer .end{
+.container footer .end {
     height: 10vh;
-    background-color: rgba(44,62,80,255);
+    background-color: rgba(44, 62, 80, 255);
 }
