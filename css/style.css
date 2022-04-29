@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {}
+
+.container .navbar {
+    background-color: rgba(44, 62, 80, 255);
+    width: auto;
+    height: 80px;
+    padding: 2%;
+    position: sticky;
+    top: 0px;
+}
+
+.container .navbar .logo {
+    display: inline;
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding-left: 5%;
+
+}
+
+.container .navbar .logo a {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.container .navbar .menu-bar {
+    display: inline;
+    float: right;
+    width: 70%;
+    text-align: end;
+    padding-right: 5%;
+}
+
+.container .navbar .menu-bar li {
+    display: inline;
+    padding: 0 30px;
+}
+
+.container .navbar .menu-bar li a {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.container .navbar .menu-bar li a:hover {
+    color: rgba(26, 188, 156, 255);
+}
+
+.container .first-section {
+    background: rgba(26, 188, 156, 255);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container .first-section .box img {
+    width: 300px;
+    margin: 7% 38% 2%;
+}
+
+.container .first-section .box h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 4em;
+}
+
+.container .first-section .box .line {
+    font-size: 2em;
+    background-color: white;
+    text-align: center;
+
+}
+
+.container .first-section .box .icon {
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+.container .first-section .box .content p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 25px;
+}
+
+.container .second-section {
+    height: 100vh;
+    background: white;
+}
+
+.container .third-section {
+    height: 100vh;
+    background: rgba(26, 188, 156, 255);
+}
+
+.container .last-section {
+    height: 100vh;
+    background: white;
+}
+
+.container footer .start{
+    height: 40vh;
+    background: rgb(100,116,132);
+}
+
+.container footer .end{
+    height: 10vh;
+    background-color: rgba(44,62,80,255);
+}
